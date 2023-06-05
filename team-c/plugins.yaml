@@ -1,0 +1,13 @@
+plugins:
+  - id: blueocean
+  - id: cloudbees-slack
+  - id: aws
+  - id: cloudbees-slack
+  - id: resource-disposer
+  - id: parameterized-trigger
+  - id: ssh-agent
+  - id: ssh-slaves
+  - id: jacoco
+  - id: swarm
+  - id: throttle-concurrents
+  - id: parameterized-scheduler

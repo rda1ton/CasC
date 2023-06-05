@@ -1,0 +1,65 @@
+plugins:
+# Mandatory --------------------------------------
+  - id: cloudbees-casc-client # CasC
+  - id: cloudbees-casc-items-api # CasC
+  - id: cloudbees-casc-items-commons # CasC
+  - id: cloudbees-casc-items-controller # CasC
+  - id: configuration-as-code # CasC
+  - id: configuration-as-code-groovy
+  - id: saml
+  - id: timestamper
+  - id: ansicolor #UI Enhancement
+  - id: job-dsl
+  - id: cloudbees-quiet-start
+#SCM ---------------------------------------------
+  - id: git
+  - id: git-client
+  - id: github
+  - id: github-branch-source
+  - id: cloudbees-bitbucket-branch-source # SCM
+  - id: gerrit-trigger
+# AWS --------------------------------------------
+  - id: ec2-fleet
+# UI ----------------------------------------------
+  - id: badge #UI Enhancement
+  - id: favorite
+# Build -------------------------------------------
+  - id: gradle
+  - id: pipeline-build-step
+  - id: pipeline-graph-analysis
+  - id: pipeline-groovy-lib
+  - id: pipeline-input-step
+  - id: pipeline-maven
+  - id: pipeline-milestone-step
+  - id: pipeline-model-definition
+  - id: pipeline-rest-api
+  - id: pipeline-stage-tags-metadata
+  - id: pipeline-stage-view
+  - id: pipeline-utility-steps
+  - id: plugin-util-api
+  - id: workflow-basic-steps
+  - id: workflow-multibranch
+  - id: build-failure-analyzer
+  - id: matrix-project
+  - id: maven-plugin
+  - id: envinject
+  - id: uno-choice
+  - id: htmlpublisher
+  - id: javadoc
+  - id: robot
+# Artifact management ------------------------------
+  - id: artifactory # Artifact management
+# Security -----------------------------------------
+  - id: hashicorp-vault-plugin
+# Chat ---------------------------------------------
+  - id: slack
+  - id: email-ext
+# ? ------------------------------------------------
+  - id: antisamy-markup-formatter
+  - id: build-monitor-plugin
+  - id: cobertura
+  - id: config-file-provider
+# Testing ------------------------------------------
+  - id: junit
+# Housekeeping -------------------------------------
+  - id: ws-cleanup
