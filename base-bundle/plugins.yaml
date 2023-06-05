@@ -13,6 +13,7 @@ plugins:
   - id: aws-java-sdk-efs
   - id: aws-java-sdk-elasticbeanstalk
   - id: aws-java-sdk-iam
+  - id: aws-java-sdk-kinesis
   - id: aws-java-sdk-logs
   - id: aws-java-sdk-minimal
   - id: aws-java-sdk-sns
