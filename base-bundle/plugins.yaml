@@ -31,6 +31,7 @@ plugins:
   - id: cloudbees-casc-items-commons
   - id: cloudbees-casc-items-controller
   - id: cloudbees-quiet-start
+  - id: managed-master-hibernation
   - id: cobertura
   - id: code-coverage-api
   - id: commons-lang3-api

@@ -11,6 +11,7 @@ plugins:
   - id: ansicolor #UI Enhancement
   - id: job-dsl
   - id: cloudbees-quiet-start
+  - id: managed-master-hibernation
 #SCM ---------------------------------------------
   - id: git
   - id: git-client
